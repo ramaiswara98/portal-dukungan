@@ -13,7 +13,7 @@ export class Relawan extends Component {
         title={'Relawan'}
        />
        <Button
-            text={'Tambahs'}
+            text={'Tambah Relawan'}
             width={200}
             background={'#69C521'}
             color={'#000'}

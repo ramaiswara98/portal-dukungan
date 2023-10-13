@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
   return (
     <View
         style={styles.container}
     >
-      <Text style={styles.text}>Tambah Relawan</Text>
+      <Text style={styles.text}>{props.text}</Text>
     </View>
   )
 }
