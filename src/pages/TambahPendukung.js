@@ -6,7 +6,7 @@ import TitleBar from '../component/TitleBar'
 import BottomPopUp from '../component/BottomPopUp';
 import Button  from '../component/Button';
 
-export default class TambahRelawan extends Component {
+export default class TambahPendukung extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -61,7 +61,7 @@ export default class TambahRelawan extends Component {
       <View>
         <View style={styles.container}>
             <TitleBar
-                title={'Tambah Relawan'}
+                title={'Tambah Pendukung'}
             />
         </View>
         <ScrollView style={styles.ScrollView}>
@@ -156,6 +156,7 @@ export default class TambahRelawan extends Component {
     )
   }
 }
+
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 const styles = StyleSheet.create({
